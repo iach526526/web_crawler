@@ -9,6 +9,6 @@
 ---
 
 在這支程式中將會到PTT的政治板由新到舊把文章的作者、發布日期、文章標題用網路爬蟲爬下來並輸出在Excel表格，輸出成品如下圖:
-![](https://i.imgur.com/RySEglV.png)
+> ![](https://i.imgur.com/RySEglV.png)
 
 
