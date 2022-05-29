@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-path="D:/chromedriver_win32/chromedriver.exe"
+path="D:/chromedriver_win32/chromedriver.exe"#放你電腦中chromedriver的檔案路徑
 #Explicit Waits
 
 driver=webdriver.Chrome(path)
