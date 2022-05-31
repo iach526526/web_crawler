@@ -10,7 +10,7 @@ path="D:/chromedriver_win32/chromedriver.exe"#放你電腦中chromedriver的檔�
 from openpyxl import Workbook,load_workbook#非內建
 wb=Workbook()
 ws=wb.active
-title=["回應(不論推或噓)","標題","ID","日期"]#加入Excel表格的第一橫排，等會日期、ID、標題也會以這個順序以每個橫排的方式插入表格，每個橫排就代表一篇文章的資訊
+title=["回應","標題","ID","日期"]#加入Excel表格的第一橫排，等會日期、ID、標題也會以這個順序以每個橫排的方式插入表格，每個橫排就代表一篇文章的資訊
 ws.append(title)
 
 driver=webdriver.Chrome(path)
